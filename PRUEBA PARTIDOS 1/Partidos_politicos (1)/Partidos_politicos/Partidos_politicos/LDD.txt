@@ -1,0 +1,8 @@
+
+
+Create if not exist candidatos(
+	id_candidato INT AUTO_INCREMENT,
+	nombre_candidato VARCHAR(85),
+	estatus_candidato VARCHAR(1),
+	PRIMARY KEY(id_candidato))
+ENGINE = INNODB CHARACTER SET = latin1;
